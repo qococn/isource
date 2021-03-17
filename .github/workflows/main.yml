@@ -4,7 +4,7 @@ name: Blog CI/CD
 on:
   push:
     branches: 
-      - source
+      - i.source
 
 env:
   TZ: Asia/Shanghai
