@@ -102,10 +102,9 @@ theme: Claudia
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
-  repo: 'https://github.com/qococn/i' #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: 'gh-pages'
-  message: 'Site updated:'
+  type: git
+  repository: git@github.com:qococn/qococn.github.io.git
+  branch: master
 
 markdown:
   render:
