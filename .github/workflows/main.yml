@@ -3,7 +3,7 @@ name: Hexo Deploy
 on:
   push:
     branches:
-      - i.source
+      - isource
 
 jobs:
   build:
@@ -14,7 +14,7 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v2
         with:
-          ref: i.source
+          ref: isource
 
       - name: Setup Node.js
         uses: actions/setup-node@v1
@@ -23,7 +23,7 @@ jobs:
 
       - name: Setup Hexo
         env:
-          ACTION_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
         run: |
           mkdir -p ~/.ssh/
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
