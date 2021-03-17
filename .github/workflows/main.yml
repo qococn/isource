@@ -4,14 +4,14 @@ name: Blog CI/CD
 on:
   push:
     branches: 
-      - hexo-blog-backup
+      - i.source
 
 env:
   TZ: Asia/Shanghai
 
 jobs:
   blog-cicd:
-    name: Hexo blog build & deploy
+    name: source & deploy
     runs-on: ubuntu-latest # 使用最新的 Ubuntu 系统作为编译部署的环境
 
     steps:
@@ -46,7 +46,7 @@ jobs:
     - name: Deploy hexo blog
       env: 
         # Github 仓库
-        GITHUB_REPO: https://github.com/qococn/i
+        GITHUB_REPO: github.com/qococn/i
       # 将编译后的博客文件推送到指定仓库
       run: |
         cd ./public && git init && git add .
@@ -56,4 +56,4 @@ jobs:
         git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
         git push --force --quiet "https://${{ secrets.ACCESS_TOKEN }}@$GITHUB_REPO" master:master
         git push --force --quiet "https://RoYFbFDSfM:${{ secrets.CODING_TOKEN }}@$CODING_REPO" master:master
-        git push --force --quiet "https://qoco:${{ secrets.GITEE_ACCESS_TOKEN }}@$GITEE_REPO" master:master
+        git push --force --quiet "https://yifanzheng:${{ secrets.GITEE_ACCESS_TOKEN }}@$GITEE_REPO" master:master
