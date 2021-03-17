@@ -10,3 +10,5 @@ QOCO 库克 酷客 库科 巧可 巧口 乔克 巧课。都挺好的哈。
 同事也将 BLOG 从 google blogger 迁移到 github 上！学会了在本地配置环境
 还根据这个教程实现了在线部署 https://zhuanlan.zhihu.com/p/170563000
 以后就可以用手机更新 BLOG 了
+
+by qoco.cn
