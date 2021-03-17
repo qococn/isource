@@ -104,7 +104,7 @@ theme: Claudia
 deploy:
   type: git
   repository: git@github.com:qococn/qococn.github.io.git
-  branch: master
+  branch: main
 
 markdown:
   render:
