@@ -1,4 +1,4 @@
-name: Hexo Deploy
+name: new Hexo Deploy
 
 on:
   push:
@@ -14,7 +14,7 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v2
         with:
-          ref: isource
+          ref: master
 
       - name: Setup Node.js
         uses: actions/setup-node@v1
