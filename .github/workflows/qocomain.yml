@@ -1,6 +1,0 @@
-name: xxxxx
-
-on:
-  push:
-    branches:
-      - source
