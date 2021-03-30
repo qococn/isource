@@ -2,11 +2,8 @@ extends widget/base
 block append head
   link(rel='stylesheet', href= url_for('/style/post.css'))
   link(rel='stylesheet', href= url_for('/style/themes/highlight-theme-light.css'))
-    meta(content='yes',name='apple-mobile-web-app-capable')   
-    meta(content='black' ,name='apple-mobile-web-app-status-bar-style') 
-    meta(content='telephone=no', name='format-detection')
-    meta(content='width=device-width,initial-scale=1.0, maximum-scale = 1.0,user-scalable=no', name='viewport')
 
+  
   script(src= url_for("/js/highlight.pack.js"))
   if theme.comment_valine && theme.comment_valine.enable
       script(src="//unpkg.com/valine/dist/Valine.min.js")
