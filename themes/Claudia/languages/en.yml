@@ -19,6 +19,7 @@ next: 'Next'
 
 all: 'All'
 home: 'Home'
+idea: 'Idea'
 title: 'Title'
 about: 'About'
 recent: 'Recent'

@@ -78,6 +78,7 @@ social:
  # main menu navigation
  menu:
    Home: /
+   Idea: /tags/%E7%AA%81%E5%8F%91%E5%A5%87%E6%83%B3/
    About: /about
    Archives: /archives
 ```
