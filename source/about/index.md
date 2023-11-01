@@ -2,7 +2,7 @@
 
 
 <br/><br/><br/><br/><br/><br/>
-<main class="about-page is-flex is-align-items-center content is-full-height"><div class="container is-max-widescreen px-2"><div class="columns is-marginless"><aside class="column is-4 is-flex is-flex-direction-column is-justify-content-center" ><img class="js-img-fadeIn" src="/images/about.png" style="transition: opacity 320ms ease 0s; opacity: 1;padding-right：20px"></aside><section class="column is-8 is-flex is-flex-direction-column is-justify-content-center"><h2 class="about-title">ABOUT ME</h2><article><h2 id="Diskobolos">
+<main class="about-page is-flex is-align-items-center content is-full-height"><div class="container is-max-widescreen px-2"><div class="columns is-marginless"><aside class="column is-4 is-flex is-flex-direction-column" ><img class="js-img-fadeIn" src="/images/about.png" style="transition: opacity 320ms ease 0s; opacity: 1;padding-right：20px"></aside><section class="column is-8 is-flex is-flex-direction-column is-justify-content-center"><h2 class="about-title">ABOUT ME</h2><article><h2 id="Diskobolos">
 <a href="#Diskobolos" class="headerlink" title="Diskobólos"></a>开启不平凡的一生</h2><p>
 35年前，我出生在一个幸福的农村家庭，拥有美好而懵懂的童年记忆。在幼儿园时，家里是县里为数不多的企业家家庭，生产着畅销的塑料袋产品，甚至上了县电视台。那时候，我穿着西装，佩戴手表，小学老师常常来我家，与我的父母称兄道弟，学校里也对我格外关照。
 
